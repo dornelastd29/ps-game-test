@@ -22,9 +22,7 @@ export default function inputQT(obj) {
   const readyBtn = createBtn("Pronto");
   gameSection.appendChild(readyBtn);
 
-  readyBtn.addEventListener("click", (e) => {
-    e.stopPropagation();
-
+  readyBtn.addEventListener("click", () => {
     const value = input.value;
     checkQT(value, obj);
   });

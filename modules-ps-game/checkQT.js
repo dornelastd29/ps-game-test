@@ -59,8 +59,7 @@ export default function checkQT(value, obj) {
 
   const next = createBtn("Próximo");
   gameSection.appendChild(next);
-  next.addEventListener("click", (e) => {
-    e.stopPropagation();
+  next.addEventListener("click", () => {
     while (gameSection.firstChild) {
       gameSection.removeChild(gameSection.firstChild);
     }

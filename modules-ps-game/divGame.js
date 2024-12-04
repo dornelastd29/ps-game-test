@@ -19,9 +19,6 @@ btnCancel.style.right = "0";
 btnCancel.style.cursor = "pointer";
 
 btnCancel.addEventListener("click", () => {
-  while (divGame.firstChild) {
-    divGame.removeChild(divGame.firstChild);
-  }
   divGame.remove();
 });
 

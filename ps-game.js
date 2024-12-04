@@ -7,10 +7,7 @@ window.addEventListener("load", () => {
   divStart.appendChild(btnStart);
   btnStart.addEventListener("click", () => {
     document.body.appendChild(divGame);
-
-    while (divStart.firstChild) {
-      divStart.removeChild(divStart.firstChild);
-    }
+    
     divStart.remove();
 
     init();

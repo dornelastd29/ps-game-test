@@ -39,9 +39,7 @@ export default function selectQT(obj) {
   const readyBtn = createBtn("Pronto");
   gameSection.appendChild(readyBtn);
 
-  readyBtn.addEventListener("click", (e) => {
-    e.stopPropagation();
-
+  readyBtn.addEventListener("click", () => {
     const value = select.value;
     checkQT(value, obj);
   });
