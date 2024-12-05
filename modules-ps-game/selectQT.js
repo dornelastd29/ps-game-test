@@ -1,6 +1,7 @@
 import checkQT from "./checkQT.js";
 import { gameSection } from "./game-setup.js";
 import { createBtn } from "./create-btn.js";
+import { createSelect, createOPT } from "./createOPT.js";
 
 export default function selectQT(obj) {
   while (gameSection.firstChild) {
@@ -11,30 +12,13 @@ export default function selectQT(obj) {
   question.textContent = obj.qt;
   gameSection.appendChild(question);
 
-  const select = document.createElement("select");
-  select.style.borderRadius = "1rem";
-  select.style.textAlign = "center";
+  const select = createSelect();
   gameSection.appendChild(select);
 
-  const opt1 = document.createElement("option");
-  opt1.value = obj.opt1Value;
-  opt1.textContent = obj.opt1Text;
-  select.appendChild(opt1);
-
-  const opt2 = document.createElement("option");
-  opt2.value = obj.opt2Value;
-  opt2.textContent = obj.opt2Text;
-  select.appendChild(opt2);
-
-  const opt3 = document.createElement("option");
-  opt3.value = obj.opt3Value;
-  opt3.textContent = obj.opt3Text;
-  select.appendChild(opt3);
-
-  const opt4 = document.createElement("option");
-  opt4.value = obj.opt4Value;
-  opt4.textContent = obj.opt4Text;
-  select.appendChild(opt4);
+  createOPT(obj.opt1Value, obj.opt1Text, select);
+  createOPT(obj.opt2Value, obj.opt2Text, select);
+  createOPT(obj.opt3Value, obj.opt3Text, select);
+  createOPT(obj.opt4Value, obj.opt4Text, select);
 
   const readyBtn = createBtn("Pronto");
   gameSection.appendChild(readyBtn);

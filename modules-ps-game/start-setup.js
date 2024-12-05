@@ -38,12 +38,16 @@ p.style.borderRadius = "0.4rem";
 
 //btn start
 const btnStart = document.createElement("button");
-btnStart.textContent = "Start";
+btnStart.textContent = "NEW GAME";
 btnStart.style.width = "fit-content";
 btnStart.style.height = "fit-content";
 btnStart.style.borderRadius = "1rem";
 btnStart.style.marginTop = "0.4rem";
 btnStart.style.cursor = "pointer";
+btnStart.style.backgroundColor = "#fff";
+btnStart.style.border = "0";
+btnStart.style.fontSize = "0.7rem";
+btnStart.style.fontFamily = "Courier New";
 
 divStart.appendChild(btnDel);
 divStart.appendChild(p);
