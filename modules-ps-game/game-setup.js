@@ -11,5 +11,6 @@ gameSection.style.alignItems = "center";
 gameSection.style.color = "white";
 gameSection.style.textAlign = "center";
 gameSection.style.width = "100%";
+gameSection.style.maxHeight = "100%";
 
 export { rdPt, gameSection };
