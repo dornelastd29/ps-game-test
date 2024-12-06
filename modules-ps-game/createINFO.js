@@ -25,7 +25,7 @@ function createInfo(info, div){
   p.style.fontSize = "0.9rem";
   p.textContent = info;
   p.style.width = "100%";
-  p.style.height = "100%";
+  p.style.height = "fit-content";
   p.style.padding = "0";
   p.style.margin = "0";
   
