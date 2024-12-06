@@ -1,8 +1,9 @@
 function createCoverInfo(img){
   const coverInfo = document.createElement("div");
   coverInfo.style.backgroundImage = `url(${img})`;
-  coverInfo.style.backgroundSize = "cover";
+  coverInfo.style.backgroundSize = "contain";
   coverInfo.style.backgroundRepeat = "no-repeat";
+  coverInfo.style.backgroundPosition = "center";
   coverInfo.style.height = "20rem";
   coverInfo.style.marginTop = "0.5rem";
   coverInfo.style.display = "flex";
