@@ -22,13 +22,9 @@ divGame.appendChild(background);
 
 if(window.innerWidth >= 700){
   divGame.style.width = "29rem";
-  divGame.style.minHeight = "35rem";
-  divGame.style.height = "fit-content";
 }else{
-  divGame.style.backgroundColor = "red";
-  divGame.style.width = "20rem";
-  divGame.style.minHeight = "35rem";
-  divGame.style.height = "fit-content";
+  divGame.style.width = "90vw";
+  divGame.style.color = "red";
 }
 
 const btnCancel = document.createElement("button");
