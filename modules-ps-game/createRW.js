@@ -10,6 +10,7 @@ function createRW(tf, div){
     rightwrong.style.padding = "0.5rem";
     rightwrong.style.border = "1px solid black";
     rightwrong.style.margin = "0";
+    rightwrong.style.marginTop = "0.1rem"
     rightwrong.style.display = "block";
     rdPt.points++;
     div.appendChild(rightwrong);
@@ -22,6 +23,7 @@ function createRW(tf, div){
     rightwrong.style.padding = "0.5rem";
     rightwrong.style.margin = "0";
     rightwrong.style.display = "block";
+    rightwrong.style.marginTop = "0.1rem"
     div.appendChild(rightwrong);
   };
 };
