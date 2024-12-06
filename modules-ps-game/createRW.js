@@ -10,7 +10,7 @@ function createRW(tf, div){
     rightwrong.style.padding = "0.5rem";
     rightwrong.style.border = "1px solid black";
     rightwrong.style.margin = "0";
-    rightwrong.style.marginTop = "0.5rem"
+    rightwrong.style.marginTop = "1rem"
     rightwrong.style.display = "block";
     rdPt.points++;
     div.appendChild(rightwrong);
@@ -20,7 +20,7 @@ function createRW(tf, div){
     rightwrong.style.color = "red";
     rightwrong.style.backgroundColor = "#fff";
     rightwrong.style.borderRadius = "0.6rem";
-    rightwrong.style.padding = "0.5rem";
+    rightwrong.style.padding = "1rem";
     rightwrong.style.margin = "0";
     rightwrong.style.display = "block";
     rightwrong.style.marginTop = "0.5rem"
