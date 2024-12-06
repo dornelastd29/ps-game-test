@@ -11,24 +11,25 @@ divGame.style.zIndex = "10";
 divGame.style.backgroundImage = "linear-gradient(to bottom, rgb(0, 67, 156), blue)";
 divGame.style.borderRadius = "0.4rem";
 
-const background = document.createElement("div");
-background.style.backgroundImage = "url(./imagens/horizon-ground.png)";
-background.style.backgroundSize = "cover";
-background.style.height = "10%";
-background.style.position = "absolute";
-background.style.bottom = "0";
-background.style.width = "100%"
-divGame.appendChild(background);
 
 if(window.innerWidth >= 700){
   divGame.style.width = "29rem";
   divGame.style.minHeight = "35rem";
   divGame.style.height = "fit-content";
+
+  const background = document.createElement("div");
+  background.style.backgroundImage = "url(./imagens/horizon-ground.png)";
+  background.style.backgroundSize = "cover";
+  background.style.height = "10%";
+  background.style.position = "absolute";
+  background.style.bottom = "0";
+  background.style.width = "100%"
+  divGame.appendChild(background);
 }else{
   divGame.style.top = "0.2rem"
   divGame.style.width = "90vw";
   divGame.style.color = "red";
-  divGame.style.height = "90vh";
+  divGame.style.height = "100%";
 }
 
 const btnCancel = document.createElement("button");
@@ -37,6 +38,7 @@ btnCancel.style.position = "absolute";
 btnCancel.style.width = "fit-content";
 btnCancel.style.right = "0";
 btnCancel.style.cursor = "pointer";
+btnCancel.style.zIndex = "10";
 
 btnCancel.addEventListener("click", () => {
   divGame.remove();
