@@ -1,4 +1,3 @@
-
 const divGame = document.createElement("div");
 divGame.style.position = "fixed";
 divGame.style.top = "50%";
@@ -6,15 +5,27 @@ divGame.style.left = "50%";
 divGame.style.transform = "translate(-50%, -50%)";
 divGame.style.display = "flex";
 divGame.style.flexDirection = "column";
-divGame.style.backgroundColor = "blue";
-divGame.style.boxShadow = "4px 6px 4px 6px rgba(0, 0, 0, .3)";
+divGame.style.backgroundColor = "rgb(0, 67, 156)";
+divGame.style.boxShadow = "4px 5px 4px 5px rgba(0, 0, 0, .3)";
 divGame.style.zIndex = "10";
+divGame.style.backgroundImage = "linear-gradient(to bottom, rgb(0, 67, 156), blue)";
+divGame.style.borderRadius = "0.4rem";
+
+const background = document.createElement("div");
+background.style.backgroundImage = "url(./imagens/horizon-ground.png)";
+background.style.backgroundSize = "cover";
+background.style.height = "10%";
+background.style.position = "absolute";
+background.style.bottom = "0";
+background.style.width = "100%"
+divGame.appendChild(background);
 
 if(window.innerWidth >= 700){
   divGame.style.width = "29rem";
   divGame.style.minHeight = "35rem";
   divGame.style.height = "fit-content";
 }else{
+  divGame.style.backgroundColor = "red";
   divGame.style.width = "20rem";
   divGame.style.minHeight = "35rem";
   divGame.style.height = "fit-content";

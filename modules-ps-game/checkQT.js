@@ -19,7 +19,9 @@ export default function checkQT(value, obj) {
 
   createRW(value.toLowerCase().trim() === obj.right, gameSection, rdPt.points);
 
-  gameSection.childNodes[2].remove();
+  console.log(gameSection.childNodes[1]);
+  gameSection.childNodes[1].remove();
+  gameSection.childNodes[1].remove();
 
   const next = createBtn("Próximo");
   gameSection.appendChild(next);

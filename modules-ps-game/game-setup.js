@@ -10,5 +10,6 @@ gameSection.style.justifyContent = "center";
 gameSection.style.alignItems = "center";
 gameSection.style.color = "white";
 gameSection.style.textAlign = "center";
+gameSection.style.width = "100%";
 
 export { rdPt, gameSection };

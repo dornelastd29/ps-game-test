@@ -2,14 +2,14 @@ import checkQT from "./checkQT.js";
 import { gameSection } from "./game-setup.js";
 import { createBtn } from "./create-btn.js";
 import { createSelect, createOPT } from "./createOPT.js";
+import { p } from "./createP.js";
 
 export default function selectQT(obj) {
   while (gameSection.firstChild) {
     gameSection.removeChild(gameSection.firstChild);
   }
 
-  const question = document.createElement("p");
-  question.textContent = obj.qt;
+  const question = p(obj.qt)
   gameSection.appendChild(question);
 
   const select = createSelect();

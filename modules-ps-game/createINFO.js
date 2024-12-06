@@ -9,6 +9,8 @@ function createCoverInfo(img){
   coverInfo.style.justifyContent = "center";
   coverInfo.style.alignItems = "center";
   coverInfo.style.width = "100%";
+  coverInfo.style.padding = "0";
+  coverInfo.style.margin = "0";
   
   return coverInfo
 };
@@ -19,8 +21,11 @@ function createInfo(info, div){
   p.style.textDecoration = "underline";
   p.style.fontWeight = "bolder";
   p.style.color = "white";
-  p.style.fontSize = "0.8rem";
+  p.style.fontSize = "0.9rem";
   p.textContent = info;
+  p.style.padding = "0";
+  p.style.margin = "0";
+  
   div.appendChild(p); 
 }
 

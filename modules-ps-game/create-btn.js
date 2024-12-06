@@ -6,7 +6,7 @@ export const createBtn = (qtNum) => {
   btn.style.alignItems = "center";
   btn.style.width = "fit-content";
   btn.style.height = "1.4rem";
-  btn.style.marginTop = "1rem";
+  btn.style.marginTop = "0.4rem";
   btn.style.borderRadius = "1rem";
   btn.style.border = "0.1rem solid black";
   btn.style.backgroundColor = "rgb(0, 102, 204)";

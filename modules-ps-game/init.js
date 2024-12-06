@@ -17,9 +17,16 @@ export default function init() {
       qt1 = module.qt1;
     });
 
+    const h3 = document.createElement("h3");
+    h3.textContent = "Quiz: PlayStation Knowledge";
+    h3.style.fontFamily = "Courier New";
+    h3.style.borderBottom = "2px solid black";
+    h3.style.padding = "0";
+    h3.style.margin = "0";
+    gameSection.appendChild(h3);
+    
     const btn1 = createBtn("Pergunta 1");
     gameSection.appendChild(btn1);
-
     btn1.addEventListener("click", (e) => {
       e.stopPropagation();
 

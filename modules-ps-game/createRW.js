@@ -9,6 +9,7 @@ function createRW(tf, div){
     rightwrong.style.borderRadius = "0.6rem";
     rightwrong.style.padding = "0.5rem";
     rightwrong.style.border = "1px solid black";
+    rightwrong.style.margin = "0";
     rdPt.points++;
     div.appendChild(rightwrong);
   }else{
@@ -18,6 +19,7 @@ function createRW(tf, div){
     rightwrong.style.backgroundColor = "#fff";
     rightwrong.style.borderRadius = "0.6rem";
     rightwrong.style.padding = "0.5rem";
+    rightwrong.style.margin = "0";
     div.appendChild(rightwrong);
   };
 };

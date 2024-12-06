@@ -11,9 +11,9 @@ function createSelect(sel){
     sel.style.borderRadius = "1rem";
     sel.style.textAlign = "center";
 
-    sel.style.width = "100%"
+    sel.style.width = "fit-content";
     
     return sel;
 };
 
-export { createOPT, createSelect };
+export { createOPT, createSelect};
