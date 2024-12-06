@@ -4,7 +4,7 @@ function createCoverInfo(img){
   coverInfo.style.backgroundSize = "contain";
   coverInfo.style.backgroundRepeat = "no-repeat";
   coverInfo.style.backgroundPosition = "center";
-  coverInfo.style.height = "20rem";
+  coverInfo.style.height = "25rem";
   coverInfo.style.marginTop = "0.5rem";
   coverInfo.style.display = "flex";
   coverInfo.style.justifyContent = "center";
@@ -24,6 +24,8 @@ function createInfo(info, div){
   p.style.color = "white";
   p.style.fontSize = "0.9rem";
   p.textContent = info;
+  p.style.width = "100%";
+  p.style.height = "100%";
   p.style.padding = "0";
   p.style.margin = "0";
   
