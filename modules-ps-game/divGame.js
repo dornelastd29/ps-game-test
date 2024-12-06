@@ -1,3 +1,4 @@
+
 const divGame = document.createElement("div");
 divGame.style.position = "fixed";
 divGame.style.top = "50%";
@@ -5,12 +6,19 @@ divGame.style.left = "50%";
 divGame.style.transform = "translate(-50%, -50%)";
 divGame.style.display = "flex";
 divGame.style.flexDirection = "column";
-divGame.style.width = "20rem";
-divGame.style.minHeight = "38rem";
-divGame.style.height = "fit-content";
-divGame.style.backgroundColor = "red";
+divGame.style.backgroundColor = "blue";
 divGame.style.boxShadow = "4px 6px 4px 6px rgba(0, 0, 0, .3)";
 divGame.style.zIndex = "10";
+
+if(window.innerWidth >= 700){
+  divGame.style.width = "29rem";
+  divGame.style.minHeight = "35rem";
+  divGame.style.height = "fit-content";
+}else{
+  divGame.style.width = "20rem";
+  divGame.style.minHeight = "35rem";
+  divGame.style.height = "fit-content";
+}
 
 const btnCancel = document.createElement("button");
 btnCancel.textContent = "X";
