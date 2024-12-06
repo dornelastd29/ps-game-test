@@ -2,7 +2,7 @@ import init from "./init.js";
 import { rdPt } from "./game-setup.js";
 import { gameSection } from "./game-setup.js";
 import { createBtn } from "./create-btn.js";
-import { createCoverInfo, createInfo } from "../createINFO.js";
+import { createCoverInfo, createInfo } from "./createINFO.js";
 import { createVideo } from "./createVIDEO.js";
 import { createRW } from "./createRW.js";
 
