@@ -1,8 +1,8 @@
 const divGame = document.createElement("div");
 divGame.style.position = "fixed";
-divGame.style.top = "50%";
+divGame.style.top = "4%";
 divGame.style.left = "50%";
-divGame.style.transform = "translate(-50%, -50%)";
+divGame.style.transform = "translate(-50%, 0%)";
 divGame.style.display = "flex";
 divGame.style.flexDirection = "column";
 divGame.style.backgroundColor = "rgb(0, 67, 156)";
@@ -22,9 +22,13 @@ divGame.appendChild(background);
 
 if(window.innerWidth >= 700){
   divGame.style.width = "29rem";
+  divGame.style.minHeight = "35rem";
+  divGame.style.height = "fit-content";
 }else{
+  divGame.style.top = "0.2rem"
   divGame.style.width = "90vw";
   divGame.style.color = "red";
+  divGame.style.height = "90vh";
 }
 
 const btnCancel = document.createElement("button");

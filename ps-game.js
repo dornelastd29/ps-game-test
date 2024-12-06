@@ -5,6 +5,7 @@ divGame.style.height = "560px";
 window.addEventListener("load", () => {
   document.body.appendChild(divStart);
   divStart.appendChild(btnStart);
+  
   btnStart.addEventListener("click", () => {
     document.body.appendChild(divGame);
     
