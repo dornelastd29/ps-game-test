@@ -23,7 +23,8 @@ if(window.innerWidth >= 700){
   background.style.height = "10%";
   background.style.position = "absolute";
   background.style.bottom = "0";
-  background.style.width = "100%"
+  background.style.width = "100%";
+  background.style.borderTop = "1px solid black"
   divGame.appendChild(background);
 }else{
   divGame.style.top = "0.2rem"

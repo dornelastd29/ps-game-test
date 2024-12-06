@@ -1,7 +1,7 @@
 function createCoverInfo(img){
   const coverInfo = document.createElement("div");
   coverInfo.style.backgroundImage = `url(${img})`;
-  coverInfo.style.backgroundSize = "contain";
+  coverInfo.style.backgroundSize = "cover";
   coverInfo.style.backgroundRepeat = "no-repeat";
   coverInfo.style.backgroundPosition = "center";
   coverInfo.style.height = "25rem";
