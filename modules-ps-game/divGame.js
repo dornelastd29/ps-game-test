@@ -5,9 +5,9 @@ divGame.style.left = "50%";
 divGame.style.transform = "translate(-50%, -50%)";
 divGame.style.display = "flex";
 divGame.style.flexDirection = "column";
-divGame.style.width = "25rem";
-divGame.style.height = "34rem";
-divGame.style.backgroundColor = "blue";
+divGame.style.width = "22rem";
+divGame.style.height = "35rem";
+divGame.style.backgroundColor = "red";
 divGame.style.boxShadow = "4px 6px 4px 6px rgba(0, 0, 0, .3)";
 divGame.style.zIndex = "10";
 
