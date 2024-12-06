@@ -27,7 +27,7 @@ if(window.innerWidth >= 700){
   divGame.appendChild(background);
 }else{
   divGame.style.top = "0.2rem"
-  divGame.style.width = "90vw";
+  divGame.style.width = "100vw";
   divGame.style.color = "red";
   divGame.style.height = "100%";
 }
