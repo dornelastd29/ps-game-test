@@ -8,7 +8,7 @@ function createCoverInfo(img){
   coverInfo.style.display = "flex";
   coverInfo.style.justifyContent = "center";
   coverInfo.style.alignItems = "center";
-  coverInfo.style.minWidth = "26rem";
+  coverInfo.style.width = "100%";
   
   return coverInfo
 };
@@ -19,6 +19,7 @@ function createInfo(info, div){
   p.style.textDecoration = "underline";
   p.style.fontWeight = "bolder";
   p.style.color = "white";
+  p.style.fontSize = "0.8rem";
   p.textContent = info;
   div.appendChild(p); 
 }
