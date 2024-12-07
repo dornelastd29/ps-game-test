@@ -31,6 +31,16 @@ if(window.innerWidth >= 700){
   divGame.style.top = "0.2rem"
   divGame.style.width = "100vw";
   divGame.style.height = "100%";
+
+  const background = document.createElement("div");
+  background.style.backgroundImage = "url(./imagens/playstation.png)";
+  background.style.backgroundSize = "contain";
+  background.style.height = "4%";
+  background.style.position = "absolute";
+  background.style.bottom = "0";
+  background.style.width = "100%";
+  background.style.opacity = "0.4";
+  divGame.appendChild(background);
 }
 
 const btnCancel = document.createElement("button");
