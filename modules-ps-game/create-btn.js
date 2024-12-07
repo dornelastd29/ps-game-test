@@ -1,6 +1,6 @@
-export const createBtn = (qtNum) => {
+export const createBtn = (text) => {
   const btn = document.createElement("button");
-  btn.textContent = qtNum;
+  btn.textContent = text;
   btn.style.display = "flex";
   btn.style.flexDirection = "center";
   btn.style.alignItems = "center";
@@ -13,5 +13,6 @@ export const createBtn = (qtNum) => {
   btn.style.color = "#fff";
   btn.style.cursor = "pointer";
   btn.style.padding = "0.8rem";
+  
   return btn;
 };

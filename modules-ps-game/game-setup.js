@@ -15,4 +15,5 @@ gameSection.style.padding = "0";
 gameSection.style.margin = "0";
 gameSection.style.position = "absolute";
 gameSection.style.zIndex = "2";
+
 export { rdPt, gameSection };
