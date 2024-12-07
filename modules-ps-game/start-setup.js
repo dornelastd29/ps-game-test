@@ -14,6 +14,7 @@ divStart.style.borderRadius = "1rem";
 divStart.style.backgroundColor = "#fff";
 divStart.style.boxShadow = "0.2rem 0.2rem #272727";
 divStart.style.zIndex = "10";
+
 //btnDel
 const btnDel = document.createElement("button");
 btnDel.textContent = "x";

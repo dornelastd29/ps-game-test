@@ -13,19 +13,20 @@ divGame.style.borderRadius = "0.4rem";
 
 
 if(window.innerWidth >= 700){
-  divGame.style.width = "29rem";
+  divGame.style.width = "30rem";
   divGame.style.minHeight = "35rem";
   divGame.style.height = "fit-content";
 
   const background = document.createElement("div");
-  background.style.backgroundImage = "url(./imagens/horizon-ground.png)";
-  background.style.backgroundSize = "cover";
+  background.style.backgroundImage = "url(./imagens/playstation.png)";
+  background.style.backgroundSize = "contain";
   background.style.height = "10%";
   background.style.position = "absolute";
   background.style.bottom = "0";
   background.style.width = "100%";
-  background.style.borderTop = "1px solid black"
+  background.style.opacity = "0.4";
   divGame.appendChild(background);
+
 }else{
   divGame.style.top = "0.2rem"
   divGame.style.width = "100vw";
