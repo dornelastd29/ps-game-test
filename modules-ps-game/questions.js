@@ -1,18 +1,44 @@
 const qt1 = {
-  qt: "Qual a franquia mais vendida da Playstation?",
+  qt: "What is the best-selling Playstation franchise?",
 
   info: "Gran Turismo made by Polyphone Digital is the best-selling franchise on the Playstation, with more than 90 million copies sold across 8 games in the main franchise (Gran Turismo, Gran Turismo 2, Gran Turismo 3: A-Spec, Gran Turismo 4, Gran Turismo 5, Gran Turismo 6, Gran Turismo Sport and Gran Turismo 7), and 8 other titles, including prologues and concepts. Gran Turismo is an icon outside and outside of the gaming world, being revered by drivers and automakers from all over the world. This recognition received throughout the automotive world brought the Vision program to the game, which consists of partnerships with automakers, such as Lamborghini, Nissan , Mercedes-Benz, Bugatti, among others, in this partnership concept cars are created with revised visuals between the assemblers and Polyphone Digital, these concept cars are included in the games for free. The franchise is currently on a roll, with the latest game, Gran Turismo 7, being the best-selling game in the franchise.",
 
   right: "gran turismo",
-
+  
   img: "imagens/gt.jpg",
-
+  
   vid: "false",
-
+  
   vidLink: "link",
 };
 
 const qt2 = {
+  qt: "In God of War Ragnarok, for what reason Draupnir Spear was made?",
+
+  info: null,
+
+  right: "right",
+
+  opt1Value: "wrong",
+  opt1Text: "Kill Thor to save Atreus",
+
+  opt2Value: "right",
+  opt2Text: "Save Atreus from Heimdall",
+
+  opt3Value: "wrong",
+  opt3Text: "Show Brok the truth",
+
+  opt4Value: "wrong",
+  opt4Text: "Destroy Asgard",
+
+  img: null,
+
+  vid: "true",
+
+  vidLink: "videos/draupnir.mp4",
+};
+
+const qt3 = {
   qt: "Playstation already won 3 GOTY awards (best game of the year), whice games were the winners?",
 
   info: "Uncharted 2 by Naughty Dog was named game of the year in 2009, the game innovated and marked the industry with its action scenes both in cutscene and gameplay, God of War by Santa Monica Studio was named game of the year in 2018, the game reinvented the franchise completely, bringing combat, which personally and directly, is the best ever done in a game, its story and characters are remarkable and brought a new respective to Kratos, one of the greatest characters in the world of games, this new one in more depth, showing who this character really is. The Last of Us Part II, also from Naughty Dog, was voted game of the year in 2020, the game brought what was expected from Naughty Dog, technically the game borders on perfection, with unique details and animations, combat beyond any other TPS, it's a risky and distressing story like never before.",
@@ -38,31 +64,6 @@ const qt2 = {
   vidLink: "link",
 };
 
-const qt3 = {
-  qt: "In God of War Ragnarok, for what reason Draupnir Spear was made?",
-
-  info: null,
-
-  right: "right",
-
-  opt1Value: "wrong",
-  opt1Text: "Kill Thor to save Atreus",
-
-  opt2Value: "right",
-  opt2Text: "Save Atreus from Heimdall",
-
-  opt3Value: "wrong",
-  opt3Text: "Show Brok the truth",
-
-  opt4Value: "wrong",
-  opt4Text: "Destroy Asgard",
-
-  img: null,
-
-  vid: "true",
-
-  vidLink: "videos/draupnir.mp4",
-};
 
 const qt4 = {
   qt: "In Ghost of Tsushima, what are the names of the four combat stances that Jin Sakay masters?",

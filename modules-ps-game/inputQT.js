@@ -20,7 +20,7 @@ export default function inputQT(obj) {
   input.style.background = "rgb(255, 255, 255, 0.9)";
   gameSection.appendChild(input);
 
-  const readyBtn = createBtn("Pronto");
+  const readyBtn = createBtn("Ready");
   gameSection.appendChild(readyBtn);
 
   readyBtn.addEventListener("click", () => {

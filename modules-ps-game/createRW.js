@@ -3,7 +3,7 @@ import { rdPt } from "./game-setup.js";
 function createRW(tf, div){
   if(tf){
     const rightwrong = document.createElement("p");
-    rightwrong.textContent = "Certa Resposta!";
+    rightwrong.textContent = "Right answer!";
     rightwrong.style.color = "green";
     rightwrong.style.backgroundColor = "#fff";
     rightwrong.style.borderRadius = "0.6rem";
@@ -16,7 +16,7 @@ function createRW(tf, div){
     div.appendChild(rightwrong);
   }else{
     const rightwrong = document.createElement("p");
-    rightwrong.textContent = "Resposta Errada!";
+    rightwrong.textContent = "Wrong answer!";
     rightwrong.style.color = "red";
     rightwrong.style.backgroundColor = "#fff";
     rightwrong.style.borderRadius = "0.6rem";

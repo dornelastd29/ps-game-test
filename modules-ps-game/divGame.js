@@ -24,7 +24,7 @@ if(window.innerWidth >= 700){
   background.style.position = "absolute";
   background.style.bottom = "0";
   background.style.width = "100%";
-  background.style.opacity = "0.4";
+  background.style.opacity = "0.8";
   divGame.appendChild(background);
 
 }else{
@@ -50,6 +50,7 @@ btnCancel.style.width = "fit-content";
 btnCancel.style.right = "0";
 btnCancel.style.cursor = "pointer";
 btnCancel.style.zIndex = "10";
+btnCancel.style.padding = "0.1rem"
 
 btnCancel.addEventListener("click", () => {
   divGame.remove();

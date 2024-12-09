@@ -20,7 +20,7 @@ export default function selectQT(obj) {
   createOPT(obj.opt3Value, obj.opt3Text, select);
   createOPT(obj.opt4Value, obj.opt4Text, select);
 
-  const readyBtn = createBtn("Pronto");
+  const readyBtn = createBtn("Ready");
   gameSection.appendChild(readyBtn);
 
   readyBtn.addEventListener("click", () => {

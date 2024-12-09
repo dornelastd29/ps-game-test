@@ -25,7 +25,7 @@ export default function init() {
     h3.style.margin = "0";
     gameSection.appendChild(h3);
     
-    const btn1 = createBtn("Pergunta 1");
+    const btn1 = createBtn("1st question");
     gameSection.appendChild(btn1);
     btn1.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -40,7 +40,7 @@ export default function init() {
       qt2 = module.qt2;
     });
 
-    const btn2 = createBtn("Pergunta 2");
+    const btn2 = createBtn("2st question");
     gameSection.appendChild(btn2);
 
     btn2.addEventListener("click", (e) => {
@@ -56,7 +56,7 @@ export default function init() {
       qt3 = module.qt3;
     });
 
-    const btn3 = createBtn("Pergunta 3");
+    const btn3 = createBtn("3st question");
     gameSection.appendChild(btn3);
 
     btn3.addEventListener("click", (e) => {
@@ -71,7 +71,7 @@ export default function init() {
       qt4 = module.qt4;
     });
 
-    const btn4 = createBtn("Pergunta 4");
+    const btn4 = createBtn("4st question");
     gameSection.appendChild(btn4);
 
     btn4.addEventListener("click", (e) => {
@@ -86,7 +86,7 @@ export default function init() {
       qt5 = module.qt5;
     });
 
-    const btn5 = createBtn("Pergunta 5");
+    const btn5 = createBtn("5st question");
     gameSection.appendChild(btn5);
 
     btn5.addEventListener("click", (e) => {
@@ -101,7 +101,7 @@ export default function init() {
       qt6 = module.qt6;
     });
 
-    const btn6 = createBtn("Pergunta 6");
+    const btn6 = createBtn("6st question");
     gameSection.appendChild(btn6);
 
     btn6.addEventListener("click", (e) => {
@@ -116,7 +116,7 @@ export default function init() {
       qt7 = module.qt7;
     });
 
-    const btn7 = createBtn("Pergunta 7");
+    const btn7 = createBtn("7st question");
     gameSection.appendChild(btn7);
 
     btn7.addEventListener("click", (e) => {
@@ -131,7 +131,7 @@ export default function init() {
       qt8 = module.qt8;
     });
 
-    const btn8 = createBtn("Pergunta 8");
+    const btn8 = createBtn("8st question");
     gameSection.appendChild(btn8);
 
     btn8.addEventListener("click", (e) => {
@@ -146,7 +146,7 @@ export default function init() {
       qt9 = module.qt9;
     });
 
-    const btn9 = createBtn("Pergunta 9");
+    const btn9 = createBtn("9st question");
     gameSection.appendChild(btn9);
 
     btn9.addEventListener("click", (e) => {
@@ -161,7 +161,7 @@ export default function init() {
       qt10 = module.qt10;
     });
 
-    const btn10 = createBtn("Pergunta 10");
+    const btn10 = createBtn("10st question");
     gameSection.appendChild(btn10);
 
     btn10.addEventListener("click", (e) => {
@@ -183,7 +183,7 @@ export default function init() {
 
     const creditsDiv = document.createElement("div");
     const link = document.createElement("a");
-    link.textContent = "Créditos: MT brothers YouTube";
+    link.textContent = "Gameplays in: MT brothers YouTube";
     link.href = "https://youtu.be/PsLWURpWbNA?t=155";
     link.style.color = "white";
     link.target = "_blank";
