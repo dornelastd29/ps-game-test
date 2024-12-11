@@ -103,7 +103,7 @@ const qt5 = {
 
   vid: "true",
 
-  vidLink: "https://res.cloudinary.com/dgj5qzbqu/video/upload/v1733893255/NateRing_je1bz2.mp4",
+  vidLink: "https://res.cloudinary.com/dgj5qzbqu/video/upload/v1733938760/uc-ring_lfyvje.mp4",
 };
 
 const qt6 = {
