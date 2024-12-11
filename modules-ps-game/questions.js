@@ -5,7 +5,7 @@ const qt1 = {
 
   right: "gran turismo",
   
-  img: "imagens/gt.jpg",
+  img: "https://res.cloudinary.com/dgj5qzbqu/image/upload/s--QUeDh3ye--/f_auto,q_auto/gt_xy2ewt",
   
   vid: "false",
   
@@ -35,7 +35,7 @@ const qt2 = {
 
   vid: "true",
 
-  vidLink: "videos/draupnir.mp4",
+  vidLink: "https://res.cloudinary.com/dgj5qzbqu/video/upload/v1733893256/draupnir_r8f8ja.mp4",
 };
 
 const qt3 = {
@@ -57,7 +57,7 @@ const qt3 = {
   opt4Value: "wrong",
   opt4Text: "God of War 2018 - Uncharted 4 - Ghost of Tsushima",
 
-  img: "imagens/play.jpg",
+  img: "https://res.cloudinary.com/dgj5qzbqu/image/upload/s--o-oEiblj--/f_auto,q_auto/play_ef5ur3",
 
   vid: "false",
 
@@ -89,7 +89,7 @@ const qt4 = {
 
   vid: "true",
 
-  vidLink: "videos/got-video.mp4",
+  vidLink: "https://res.cloudinary.com/dgj5qzbqu/video/upload/v1733893260/got-video_fiqux3.mp4",
 };
 
 const qt5 = {
@@ -103,7 +103,7 @@ const qt5 = {
 
   vid: "true",
 
-  vidLink: "videos/NateRing.mp4",
+  vidLink: "https://res.cloudinary.com/dgj5qzbqu/video/upload/v1733893255/NateRing_je1bz2.mp4",
 };
 
 const qt6 = {
@@ -117,7 +117,7 @@ const qt6 = {
 
   vid: "true",
 
-  vidLink: "videos/horizon.mp4",
+  vidLink: "https://res.cloudinary.com/dgj5qzbqu/video/upload/v1733893262/horizon_hbmznl.mp4",
 };
 
 const qt7 = {
@@ -139,7 +139,7 @@ const qt7 = {
   opt4Value: "wrong",
   opt4Text: "Electriciy - Neon - Speed - Strengh",
 
-  img: "imagens/infamous.jpg",
+  img: "https://res.cloudinary.com/dgj5qzbqu/image/upload/s--AbV2_ZT_--/f_auto,q_auto/infamous_ehoyfq",
 
   vid: "false",
 
@@ -153,7 +153,7 @@ const qt8 = {
 
   right: "deimos",
 
-  img: "imagens/deimos.jpg",
+  img: "https://res.cloudinary.com/dgj5qzbqu/image/upload/s--ICcvVDfD--/f_auto,q_auto/deimos_krmgvv",
 
   vid: "false",
 
@@ -167,7 +167,7 @@ const qt9 = {
 
   right: "black bird",
 
-  img: "imagens/blackBird.png",
+  img: "https://res.cloudinary.com/dgj5qzbqu/image/upload/s--2a7u6oQ0--/f_auto,q_auto/blackBird_acccw9",
 
   vid: "false",
 
@@ -181,7 +181,7 @@ const qt10 = {
 
   right: "hope",
 
-  img: "imagens/gow.jpg",
+  img: "https://res.cloudinary.com/dgj5qzbqu/image/upload/s--ndzz-gmX--/f_auto,q_auto/gow_pjkajm",
 
   vid: "false",
 
