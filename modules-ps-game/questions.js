@@ -1,7 +1,7 @@
 const qt1 = {
   qt: "What is the best-selling Playstation franchise?",
 
-  info: "Gran Turismo made by Polyphone Digital is the best-selling franchise on the Playstation, with more than 90 million copies sold across 8 games in the main franchise (Gran Turismo, Gran Turismo 2, Gran Turismo 3: A-Spec, Gran Turismo 4, Gran Turismo 5, Gran Turismo 6, Gran Turismo Sport and Gran Turismo 7), and 8 other titles, including prologues and concepts. Gran Turismo is an icon outside and outside of the gaming world, being revered by drivers and automakers from all over the world. This recognition received throughout the automotive world brought the Vision program to the game, which consists of partnerships with automakers, such as Lamborghini, Nissan , Mercedes-Benz, Bugatti, among others, in this partnership concept cars are created with revised visuals between the assemblers and Polyphone Digital, these concept cars are included in the games for free. The franchise is currently on a roll, with the latest game, Gran Turismo 7, being the best-selling game in the franchise.",
+  info: "Gran Turismo, made by Polyphony Digital, is the best-selling franchise on PlayStation, with more than 90 million copies sold across 8 main games (Gran Turismo, Gran Turismo 2, Gran Turismo 3: A-Spec, Gran Turismo 4, Gran Turismo 5, Gran Turismo 6, Gran Turismo Sport, and Gran Turismo 7), and 8 other titles, including prologues and concepts. Gran Turismo is an icon both inside and outside the gaming world, revered by drivers and automakers from all over the globe. This recognition throughout the automotive world brought the Vision program to the game, which consists of partnerships with automakers such as Lamborghini, Nissan, Mercedes-Benz, Bugatti, among others. In this partnership, concept cars are created with revised visuals between the manufacturers and Polyphony Digital, and these concept cars are included in the games for free. The franchise is currently on a roll, with the latest game, Gran Turismo 7, being the best-selling game in the franchise.",
 
   right: "gran turismo",
   
@@ -41,7 +41,7 @@ const qt2 = {
 const qt3 = {
   qt: "Playstation already won 3 GOTY awards (best game of the year), whice games were the winners?",
 
-  info: "Uncharted 2 by Naughty Dog was named game of the year in 2009, the game innovated and marked the industry with its action scenes both in cutscene and gameplay, God of War by Santa Monica Studio was named game of the year in 2018, the game reinvented the franchise completely, bringing combat, which personally and directly, is the best ever done in a game, its story and characters are remarkable and brought a new respective to Kratos, one of the greatest characters in the world of games, this new one in more depth, showing who this character really is. The Last of Us Part II, also from Naughty Dog, was voted game of the year in 2020, the game brought what was expected from Naughty Dog, technically the game borders on perfection, with unique details and animations, combat beyond any other TPS, it's a risky and distressing story like never before.",
+  info: "Uncharted 2 by Naughty Dog was named Game of the Year in 2009. The game innovated and marked the industry with its action scenes both in cutscenes and gameplay. God of War by Santa Monica Studio was named Game of the Year in 2018. The game reinvented the franchise completely, bringing combat that is, personally, the best ever done in a game. Its story and characters are remarkable and brought a new perspective to Kratos, one of the greatest characters in the world of games, showing who this character really is in more depth. The Last of Us Part II, also from Naughty Dog, was voted Game of the Year in 2020. The game brought what was expected from Naughty Dog: technically, the game borders on perfection, with unique details and animations, combat beyond any other TPS, and a risky and distressing story like never before.",
 
   right: "right",
 
@@ -123,7 +123,7 @@ const qt6 = {
 const qt7 = {
   qt: "In Infamous Second Son, what are the four powers absorbed by Delsin along the journey?",
 
-  info: "Delsin's natural power allows him to absorb any power from other conductors. What makes him one of the most powerful conductors. Along the journey in Infamous Second, Delsim absorbed 4 powers, smoke, neon, video and concrete.",
+  info: "Delsin's natural power allows him to absorb any power from other conductors, making him one of the most powerful conductors. Along the journey in Infamous Second Son, Delsin absorbed four powers: smoke, neon, video, and concrete.",
 
   right: "right",
 
@@ -149,7 +149,7 @@ const qt7 = {
 const qt8 = {
   qt: "In God of War, what is the name of Kratos brothers, whos has born with red marks that Kratos cariies in his memory?",
 
-  info: "Deimos is Kratos' younger brother, he was kidnapped in his childhood while training alongside Kratos, Ares was the one who kidnapped him in orde of Zeus. Zeus' intention was to prevent the fulfillment of a prophecy, this prophect pedricted the desctruction of Olympus at the hands of a marked warrior, the gods of Olympus believed Deimos was the warrior of the prophecy due to his birthmark (the red stripe). During the kidnapping, Kratos tried to prevent Ares from attacking him, but Ares burned him and scarred his eye. Soon after, Kratos made a red tattoo on his body, identical to Deimos birthmark, in memory of his brother.",
+  info: "Deimos is Kratos' younger brother. He was kidnapped in his childhood while training alongside Kratos. Ares was the one who kidnapped him on Zeus' orders. Zeus' intention was to prevent the fulfillment of a prophecy that predicted the destruction of Olympus at the hands of a marked warrior. The gods of Olympus believed Deimos was the warrior of the prophecy due to his birthmark (the red stripe). During the kidnapping, Kratos tried to prevent Ares from taking him, but Ares burned him and scarred his eye. Soon after, Kratos made a red tattoo on his body, identical to Deimos' birthmark, in memory of his brother.",
 
   right: "deimos",
 
@@ -175,9 +175,9 @@ const qt9 = {
 };
 
 const qt10 = {
-  qt: "By becoming the God of War, Kratos represented pain, suffering and destruction. He chase a redemption that he know he never can deserve. But he has something that he will always carry, and that is what he wants to represent. What does Kratos want to represent?",
+  qt: "By becoming the God of War, Kratos represented pain, suffering, and destruction. He chases a redemption that he knows he can never deserve. But he has something that he will always carry, and that is what he wants to represent. What does Kratos want to represent?",
 
-  info: "What is said about Kratos' redemption is that he became a new man, but this is a very simplistic way of looking at Kratos' entire story. There was a Kratos before and after 'losing' his family, before that, he was disciplined and would do anything for for those he had to do, which is exactly what he does when he chase redemption. There is no forgiveness for what he did, and as much as he is afraid of losing everything and everyone and becoming what he has become, he is not looking for something new, he is looking to be who he really is.",
+  info: "What is said about Kratos' redemption is that he became a new man, but this is a very simplistic way of looking at Kratos' entire story. There was a Kratos before and after 'losing' his family. Before that, he was disciplined and would do anything for those he had to protect, which is exactly what he does when he chases redemption. There is no forgiveness for what he did, and as much as he is afraid of losing everything and everyone and becoming what he has become, he is not looking for something new; he is looking to be who he really is.",
 
   right: "hope",
 
