@@ -5,26 +5,18 @@ import { createBtn } from "./create-btn.js";
 import { createCoverInfo, createInfo } from "./createINFO.js";
 import { createVideo } from "./createVIDEO.js";
 import { createRW } from "./createRW.js";
+import { fetchImg } from "./fetchIMG.js";
+import { fetchVideo } from "./fetchVideo.js";
 
 export default function checkQT(value, obj) {
-  if (obj.info) {
-    const coverInfo = createCoverInfo(obj.img);
-    createInfo(obj.info, coverInfo);
-    gameSection.appendChild(coverInfo);
-  }
-
-  if (obj.vid === "true") {
-    createVideo(obj.vidLink, gameSection);
-  }
-
   createRW(value.toLowerCase().trim() === obj.right, gameSection, rdPt.points);
 
-  console.log(gameSection.childNodes[1]);
   gameSection.childNodes[1].remove();
   gameSection.childNodes[1].remove();
 
-  const next = createBtn("Next");
+  const next = createBtn("Loading...");
   gameSection.appendChild(next);
+  next.disabled = true;
   next.addEventListener("click", () => {
     while (gameSection.firstChild) {
       gameSection.removeChild(gameSection.firstChild);
@@ -32,4 +24,12 @@ export default function checkQT(value, obj) {
     rdPt.round++;
     init();
   });
+  
+  if (obj.info) {
+    fetchImg(obj.img, obj.info, createCoverInfo, createInfo, gameSection, next);
+  }
+
+  if (obj.vid === "true") {
+    fetchVideo(obj.vidLink, createVideo, gameSection, next);
+  }
 }
