@@ -9,7 +9,6 @@ export default async function teste(){
   while (gameSection.firstChild) {
     gameSection.removeChild(gameSection.firstChild);
   };
-  console.log("testetstetsetstes")
   const loadQuestion = async (round) =>{
     const module = await import("./questions.js");
     const question = module[`qt${round}`];
@@ -47,7 +46,6 @@ export default async function teste(){
     await loadQuestion(rdPt.round);
   }else{
     createH3("END");
-
     const p = document.createElement("p");
     p.textContent = `Pontuação: ${rdPt.points}/10`;
     gameSection.appendChild(p);
